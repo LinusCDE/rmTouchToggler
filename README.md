@@ -11,7 +11,7 @@ This is a answer to [this post](https://www.reddit.com/r/RemarkableTablet/commen
 Copy the latest release binary (or compile it yourself using the [cross-compiler](https://remarkable.engineering/)) to the reMarkable.
 It should be in the home directory (at `/home/root/touchToggler`).
 
-Copy the file `touchToggler.service` into `/etc/system/systemd/`.
+Copy the file `touchToggler.service` into `/etc/systemd/system/`.
 
 SSH into the reMarkable.
 
